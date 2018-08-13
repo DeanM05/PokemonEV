@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PokemonEV</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_guess">GuessActivity</string>
+
+    <string-array name="PkmnNames">
+        <item>Charmander</item>
+        <item>Squirtle</item>
+        <item>Bulbasaur</item>
+        <item>Fennekin</item>
+        <item>Froakie</item>
+        <item>Chespin</item>
+        <item>Torchic</item>
+        <item>Mudkip</item>
+        <item>Treecko</item>
+
+    </string-array>
+    <string name="share">Share</string>
+
+    <string name="facebook_app_id">939654702817117</string>
+</resources>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dean.pokemonev.OptionsActivity"
+    android:background="#333b6a">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Total EV&apos;s: 510/510"
+            android:id="@+id/textView12"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset All EV&apos;s"
+            android:id="@+id/button11"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Pokemon"
+            android:id="@+id/button14"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:textAlignment="center"
+            android:textColor="#05ff37"
+            android:text="h"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:textColor="#ed2626"
+        android:text="a"
+        android:textSize="19dp"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:textColor="#ffe600"
+            android:text="d"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView5"
+            android:textAlignment="center"
+            android:textColor="#d11fc8"
+            android:text="sa"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView10"
+            android:textAlignment="center"
+            android:textColor="#ff8400"
+            android:text="sd"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView11"
+            android:textAlignment="center"
+            android:textColor="#1cfff7"
+            android:text="sp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutV"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight=".10"
+            android:nestedScrollingEnabled="true"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="HP Up"
+                android:id="@+id/button5V"
+                android:background="#05ff37"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="Protein"
+                android:id="@+id/button2V"
+                android:background="#ed2626"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="Iron"
+                android:id="@+id/button3V"
+                android:background="#ffe600"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3V"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_weight=".10"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="Calcium"
+                android:id="@+id/buttonV"
+                android:background="#d11fc8"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="Zinc"
+                android:id="@+id/button4V"
+                android:background="#ff8400"
+                android:textSize="18dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="Carbos"
+                android:id="@+id/button6V"
+                android:background="#1cfff7"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EV Training Guide"
+            android:id="@+id/button17"
+            android:layout_below="@+id/button8"
+            android:layout_centerHorizontal="true"
+            android:soundEffectsEnabled="false"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List of Pokemon by EV Value"
+            android:id="@+id/button7"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</RelativeLayout>
